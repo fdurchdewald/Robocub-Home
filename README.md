@@ -2,6 +2,16 @@
 
 Unified documentation and execution guide for the Receptionist task. This project combines Navigation, Manipulation, Audio, and Vision.
 
+## Overview
+
+A service robot that autonomously manages guest arrivals in a home environment. The robot detects door signals, welcomes guests, engages in dialogue to gather information, introduces guests to each other, and guides them to available seats. The system integrates perception, dialogue, navigation, and manipulation capabilities through a modular ROS architecture coordinated by a central state machine.
+
+## Demo
+
+[![Demo Video](demo/demo_preview.png)](demo/demo.mp4)
+
+Watch the full demonstration video in the [demo](demo/) folder (`demo.mp4`).
+
 ## Setup & Build
 
 Ensure all dependencies are installed and the workspace is built.
